@@ -1,2 +1,2 @@
-Visiting site: https://p-sergei-qa.github.io/
+* Visiting site: https://p-sergei-qa.github.io/
 
