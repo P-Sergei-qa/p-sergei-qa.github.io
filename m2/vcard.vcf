@@ -12,7 +12,7 @@ TITLE;CHARSET=UTF-8: QA Engineer
 ROLE;CHARSET=UTF-8: QA Engineer
 ORG;CHARSET=UTF-8: QA Engineer
 NOTE:
-• Автор статей по тестированию на VC: https://vc.ru/u/4283418-sergei/1698274-znakomstvo-s-postman-bazovye-operacii-dlya-testirovshika
+• Автор статей на VC: https://vc.ru/u/4283418-sergei/1698274-znakomstvo-s-postman-bazovye-operacii-dlya-testirovshika
 • **Тестирование API**: Rest API, SOAP, Postman, Swagger
 • **Базы данных**: SQL, NoSQL
 • **Логирование и мониторинг**: Kibana, Sentry, Grafana, Jaeger
