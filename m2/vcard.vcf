@@ -11,7 +11,7 @@ ADR;CHARSET=UTF-8;TYPE=WORK:;;;Москва;;;Россия
 TITLE;CHARSET=UTF-8: QA Engineer
 ROLE;CHARSET=UTF-8: QA Engineer
 ORG;CHARSET=UTF-8: QA Engineer
-NOTE: Long story short: \n • Легко адаптируюсь к различным форматам работы — будь то удалёнка или офис, всегда держу профессиональный этикет \n • Открыт для обучения и саморазвития \n \n QA Engineer: \n • Тестирование API: Rest API, SOAP, Postman, Swagger \n • Базы данных: SQL, NoSQL \n • Логирование: Kibana, Sentry \n • Автоматизация: Cypress, Charles \n • Микросервисы: Kafka, Firebase \n • Тестовая документация: чек-листы, тест-кейсы, баг-репорты \n • CI/CD: Jenkins, Git \n \n Автор статей на VC: https://vc.ru/u/4283418-sergei/1698274-znakomstvo-s-postman-bazovye-operacii-dlya-testirovshika
+NOTE:• Автор статей на VC: https://vc.ru/u/4283418-sergei/1698274-znakomstvo-s-postman-bazovye-operacii-dlya-testirovshika • Тестирование API: Rest API, SOAP, Postman, Swagger • Базы данных: SQL, NoSQL • Логирование и мониторинг: Kibana, Sentry, Grafana, Jaeger • Автоматизация и тестирование: Cypress, Charles • Микросервисы и интеграции: Kafka, Firebase • Тестовая документация: чек-листы, тест-кейсы, баг-репорты • Инструменты CI/CD: Jenkins, Git
 
 X-SOCIALPROFILE;TYPE=GitHub:https:P-Sergei-qa
 REV:2024-12-28T08:32:22.806Z
