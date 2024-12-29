@@ -14,6 +14,6 @@ ORG;CHARSET=UTF-8: QA Engineer
 NOTE: • Автор статей на VC: \n https://vc.ru/u/4283418-sergei/1698274-znakomstvo-s-postman-bazovye-operacii-dlya-testirovshika \n • Miro: чек-лист «Форма логина и пароля» и API: https://miro.com/app/board/uXjVLMrcM5w=/?share_link_id=288395684523 \n • Инструменты: Rest API, SOAP, Postman, \n SQL & NoSQL, Kafka, Kibana,  Sentry, \n Grafana,  Firebase, Jaeger, Cypress,  \n Charles, Swagger.
 
 X-SOCIALPROFILE;type=Telegram:Penshin_Sergei
-X-SOCIALPROFILE;TYPE=vc:https:4283418-sergei
+
 REV:2024-12-28T08:32:22.806Z
 END:VCARD
