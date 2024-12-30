@@ -125,13 +125,13 @@ QR-код отображается при клике на соответству
 В HTML ПЕРЕД закрывающим тегом `</head>` вставить строку:
 
 ```html
-    <link href="/snowFlakes/snow.min.css" rel="stylesheet">
+    <link href="snowFlakes/snow.min.css" rel="stylesheet">
 ```
 
 В HTML ПОСЛЕ открывающего тега `<body>` вставить строки:
 
 ```html
-    <script src="/snowFlakes/Snow.js"></script>
+    <script src="snowFlakes/Snow.js"></script>
     <script>
         new Snow();
     </script>
