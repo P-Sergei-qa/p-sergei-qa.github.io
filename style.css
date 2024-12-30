@@ -307,9 +307,18 @@ body.dark .vcard h1 small {
     text-decoration: none;
 }
 
+/* Подчеркивание при наведении для всех устройств */
 .vcard .note a:hover {
     text-decoration: underline; /* Подчеркивание при наведении */
 }
+
+/* Для мобильных устройств - всегда подчеркиваем ссылку */
+@media (max-width: 768px) {
+    .vcard .note a {
+        text-decoration: underline; /* Подчеркивание всегда */
+    }
+}
+
 
 * {
     box-sizing: border-box; /* Убирает проблемы с размерами */
@@ -320,10 +329,27 @@ body.dark .vcard h1 small {
     font-size: 1.4em; 
 }
 
+
+
+
+
+/* Запрещаем выделение текста */
+.no-select {
+    user-select: none; /* Запрещает выделение текста */
+    -webkit-user-drag: none; /* Запрещает перетаскивание для webkit-браузеров */
+}
+
+/* Запрещаем перетаскивание ссылки */
+.no-drag {
+    pointer-events: auto; /* Ссылка остается кликабельной */
+}
+
+
+
+
 /* Стиль для версии сайта */
 .footer-version {
     position: fixed; /* Закрепить внизу */
-    bottom: 10px; /* Отступ от нижнего края */
     left: 50%; /* Центрируем по горизонтали */
     transform: translateX(-50%); /* Центрирование по горизонтали */
     font-size: 14px; /* Размер текста */
@@ -333,7 +359,8 @@ body.dark .vcard h1 small {
     border-radius: 5px; /* Закругленные углы */
     font-weight: normal; /* Убираем выделение жирным */
     opacity: 0.7; /* Легкая прозрачность */
+    user-select: none;  /* Запрещаем выделение текста */
+    pointer-events: none; /* Запрещаем клики на тексте */
+    bottom: 10px; /* Базовый отступ от нижнего края */
+    z-index: 9999; /* Убедитесь, что версия будет поверх других элементов */
 }
-
-
-
