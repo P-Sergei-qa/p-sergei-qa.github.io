@@ -29,7 +29,7 @@
 <a name="download-business-card-website-template"></a>
 ### Скачайте шаблон сайта-визитки
 
-Вы можете скачать файлы сайта-визитки перейдя в [папку сайта-визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) и скачать ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP`.
+Вы можете скачать файлы сайта-визитки перейдя в [папку](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) и скачать ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP`.
 
 <a name="add-contact-details"></a>
 ### Добавьте контактные данные
