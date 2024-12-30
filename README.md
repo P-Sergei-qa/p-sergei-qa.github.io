@@ -4,7 +4,7 @@
 
 - [Описание](#about)
 - [Как пользоваться](#how-to-use)
-	- [Скачайте шаблон сайта визитки](#download-business-card-website-template)
+	- [Скачайте шаблон сайта-визитки](#download-business-card-website-template)
 	- [Добавьте контактные данные](#add-contact-details)
 	- [Добавьте аватар](#add-your-avatar)
 	- [Изменените фон](#change-background)
