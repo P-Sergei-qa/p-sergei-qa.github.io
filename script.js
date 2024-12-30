@@ -59,15 +59,30 @@ $(function () {
 		$('#avatar').toggleClass('full');
 	});
 	
-	// Show QR code link if it exists
-$.get($('#vcard-link').attr('href'), function() {
-    $('#vcard-link')
-        .removeClass('is-hidden') // Сделать ссылку видимой
-        .attr('title', 'Скачать контакты'); // Добавить всплывающую подсказку
-}).fail(function() {
-    $('#vcard-link i').remove();
-});
+	    // Show QR code link if it exists Скачать контакты
+		$.get($('#vcard-link').attr('href'), function() {
+			$('#vcard-link')
+				.removeClass('is-hidden') // Сделать ссылку видимой
+				.attr('title', 'Скачать контакты') // Добавить всплывающую подсказку
+				.css({
+					'user-select': 'none',  // Запрещаем выделение текста
+					'-webkit-user-drag': 'none',  // Запрещаем перетаскивание
+					'pointer-events': 'auto'  // Ссылка должна быть активной
+				});
+		}).fail(function() {
+			$('#vcard-link i').remove();
+		});
 
+		$(document).ready(function() {
+			// Запрещаем выделение текста и перетаскивание на фотографии
+			$('img').css({
+				'user-select': 'none',  // Запрещает выделение текста
+				'-webkit-user-drag': 'none',  // Запрещает перетаскивание
+				'pointer-events': 'none'  // Отключает события для перетаскивания
+			});
+		});
+		
+		
 	
 	// Show QR code link if it exists
 	$(function () {
@@ -192,13 +207,20 @@ $.get($('#vcard-link').attr('href'), function() {
 		// Если почта есть в vCard, показываем иконку и ссылку
 
 		
-		// Get url
-		// Установить ссылку на GitHub
-			$('#url')
-			.attr('href', 'https://github.com/P-Sergei-qa') // Ваш GitHub
-			.attr('target', '_blank') // Открывать в новой вкладке
-			.attr('title', 'Мой GitHub') // Всплывающая подсказка
-			.removeClass('is-hidden'); // Сделать видимой
+		 // Get url
+        // Установить ссылку на GitHub 
+        $(document).ready(function() {
+            $('#url')
+                .attr('href', 'https://github.com/P-Sergei-qa') // Устанавливаем ссылку на GitHub
+                .attr('target', '_blank') // Открывать в новой вкладке
+                .attr('title', 'Мой GitHub') // Всплывающая подсказка
+                .removeClass('is-hidden') // Убираем класс, чтобы сделать ссылку видимой
+                .css({
+                    'user-select': 'none', // Запрещает выделение текста
+                    '-webkit-user-drag': 'none', // Запрещает перетаскивание
+                    'pointer-events': 'auto' // Ссылка должна быть активной
+                });
+        });
 		
 		// Get note это заметка обо мне!
 		if (vcard.note) {

@@ -24,8 +24,18 @@
 
     <!-- Basic CSS -->
     <link rel="stylesheet" href="style.css">
+
+	 <!-- Снежинку добавить -->
+     <link href="snowFlakes/snow.min.css" rel="stylesheet">
 </head>
 <body id="body" data-toggler=".dark" class="dark background condensed">
+
+ <!-- Снежинку добавить -->
+ <script src="snowFlakes/Snow.min.js"></script>
+ <script>
+	 new Snow ();
+ </script>
+
 	<div>
 		<div class="main">
 			<div class="vcard">
@@ -73,10 +83,12 @@
 						<div id="email" class="email is-hidden">
 							<a href="mailto:"></a>
 						</div>
+						<!-- Сделал запрет на перетаскиваине ссылки -->
 						<div id="social" class="social is-hidden">
-							<a href="https://t.me/" target="_blank" title="Telegram" id="telegram" class="is-hidden">
+							<a href="https://t.me/" target="_blank" title="Telegram" id="telegram" class="is-hidden no-select no-drag">
 								<i class="fa-brands fa-telegram fa-lg"></i>
 							</a>
+							
 							
 						
 							
@@ -131,9 +143,9 @@
 	<script src="script.js"></script>
 
 	<!-- Добавляю версию сайта -->
-	<div class="footer-version">
-		Версия 3.0.0
-	</div>
+<div class="footer-version">
+    Версия 3.0.1
+</div>
 	
 
 </body>
