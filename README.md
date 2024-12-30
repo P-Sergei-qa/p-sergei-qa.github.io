@@ -14,7 +14,7 @@
 <a name="about"></a>
 ## Описание
 
-[Шаблон цифровой визитки](#download-business-card-website-template), который вы можете изменить и разместить на любом хостинге, в том числе на [GitHub Pages](https://docs.github.com/ru/pages), тогда сайт вашей электронной визитки будет доступен по адресу вида `username.github.io`, где `username` имя вашего пользователя.
+[Шаблон сайта-визитки](#download-business-card-website-template), который вы можете изменить и разместить на любом хостинге, в том числе на [GitHub Pages](https://docs.github.com/ru/pages), тогда сайт вашей электронной визитки будет доступен по адресу вида `username.github.io`, где `username` имя вашего пользователя.
 
 Файлы в [папке сайта визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) для базового использования:
 
@@ -27,9 +27,9 @@
 ## Как пользоваться
 
 <a name="download-business-card-website-template"></a>
-### Скачайте шаблон сайта визитки
+### Скачайте шаблон сайта-визитки
 
-Вы можете скачать файлы сайта визитки перейдя в [папку сайта визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) и скачать ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP`.
+Вы можете скачать файлы сайта-визитки перейдя в [папку сайта визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) и скачать ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP`.
 
 <a name="add-contact-details"></a>
 ### Добавьте контактные данные
@@ -93,7 +93,7 @@
 QR-код отображается при клике на соответствующую иконку в правом верхнем углу аватара. В режиме отображения QR-кода фон меняется на белый цвет.
 
 <a name="create-digital-business-card-website"></a>
-### Создайте сайт цифровой визитки
+### Создайте сайт-визитку
 
 [Зарегестрируйтесь бесплатно на GitHub](https://github.com/signup), затем создайте новый репозиторий (место хранения файлов) с именем соответствующем `username.github.io` (где `username` - ваше имя пользователя) и включите в настройках [Github Pages](https://docs.github.com/ru/pages/quickstart).
 
