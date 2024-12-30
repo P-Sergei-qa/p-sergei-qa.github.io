@@ -1,6 +1,6 @@
 # Сайт-визитка
 
-> Ссылка [сайт-визитку](https://p-sergei-qa.github.io/).
+> Ссылка на [сайт-визитку](https://p-sergei-qa.github.io/).
 
 - [Описание](#about)
 - [Как пользоваться](#how-to-use)
