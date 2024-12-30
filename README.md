@@ -16,7 +16,7 @@
 
 [Шаблон сайта-визитки](#download-business-card-website-template), который вы можете изменить и разместить на любом хостинге, в том числе на [GitHub Pages](https://docs.github.com/ru/pages), тогда сайт вашей электронной визитки будет доступен по адресу вида `username.github.io`, где `username` имя вашего пользователя.
 
-Файлы в [папке сайта визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) для базового использования:
+Файлы в [папке сайта-визитки](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) для базового использования:
 
 - [`vcard.vcf`](#add-contact-details) - файл в текстовом формате [vCard](https://ru.wikipedia.org/wiki/VCard) для заполнения данными вашей электронной визитки. 
 - [`avatar.jpg`](#add-your-avatar) - аватар для замены на ваше изображение.
