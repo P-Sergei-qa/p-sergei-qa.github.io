@@ -366,9 +366,16 @@ body.dark .vcard h1 small {
 }
 
 
-/* Скрытие версии сайта в горизонтальном положении */
-@media (orientation: landscape) {
+/* Скрытие версии сайта в горизонтальном положении на мобильных и планшетах */
+@media (max-width: 932px) and (orientation: landscape) {
     .footer-version {
-        display: none; /* Скрываем элемент */
+        display: none;
+    }
+}
+
+/* Скрытие версии сайта в горизонтальном положении на устройствах с шириной больше 768px */
+@media (min-width: 932x) and (orientation: landscape) {
+    .footer-version {
+        display: none;
     }
 }
