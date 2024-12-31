@@ -365,7 +365,7 @@ body.dark .vcard h1 small {
     z-index: 9999; /* Убедитесь, что версия будет поверх других элементов */
 }
 
-}
+
 /* Скрытие версии сайта в горизонтальном положении */
 @media (orientation: landscape) {
     .footer-version {
