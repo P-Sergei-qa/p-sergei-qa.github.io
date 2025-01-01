@@ -9,7 +9,7 @@
 	- [Добавьте аватар](#add-your-avatar)
 	- [Изменените фон](#change-background)
 	- [Создайте QR-код](#create-qr-code)
-	- [Создайте сайт цифровой визитки](#create-digital-business-card-website)
+	- [Создайте сайт-визитки](#create-digital-business-card-website)
 
 <a name="about"></a>
 ## Описание
