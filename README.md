@@ -139,7 +139,7 @@ QR-код отображается при клике на соответству
     </script>
 ```
 
-<a name="CI/C"></a>
+<a name="CI/CD"></a>
 ## Создаём свой CI/CD
 
 CI/CD — Continuous Integration (CI) и Continuous Delivery (CD)
