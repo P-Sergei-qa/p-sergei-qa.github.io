@@ -11,7 +11,7 @@
 	- [Создайте QR-код](#create-qr-code)
 	- [Создайте сайт-визитку](#create-digital-business-card-website)
  - [Snowflakes](#Snowflakes)
- - [Создаём свой CI/CD](#CI/CD)
+ - [Создаём свой CI/CD](#CICD)
 
 <a name="about"></a>
 ## Описание
@@ -139,7 +139,7 @@ QR-код отображается при клике на соответству
     </script>
 ```
 
-<a name="CI/CD"></a>
+<a name="CICD"></a>
 ## Создаём свой CI/CD
 
 CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это философия непрерывной интеграции и доставки
