@@ -192,9 +192,9 @@ CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это фи�
 
 	г) Нажимай `​​​​Run workflow​​​​`
 
-	д) Выбирай ветку в которой есть ​​​​cicd.yaml​​​​ (main)
+	д) Выбирай ветку в которой есть `​​​​cicd.yaml​​​​ (main)`
 
-	е) Жми ​​​​Run workflow​​​​
+	е) Жми ​​​​`Run workflow​​​​`
 
 	ж) Через 5-10 секунд появится новая сборка
 
