@@ -142,8 +142,7 @@ QR-код отображается при клике на соответству
 <a name="CI/CD"></a>
 ## Создаём свой CI/CD
 
-CI/CD — Continuous Integration (CI) и Continuous Delivery (CD)
-Это философия непрерывной интеграции и доставки
+CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это философия непрерывной интеграции и доставки.
 
 
 ### Работа в терминале Visual Studio Code
