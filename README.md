@@ -10,7 +10,7 @@
 	- [Изменените фон](#change-background)
 	- [Создайте QR-код](#create-qr-code)
 	- [Создайте сайт-визитку](#create-digital-business-card-website)
- - [Как пользоваться](#Snowflakes)
+ - [Snowflakes](#Snowflakes)
 
 <a name="about"></a>
 ## Описание
