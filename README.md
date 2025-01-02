@@ -154,9 +154,9 @@ CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это фи�
 5. ​Добавить внутри папки ​​​​`.github`​​​​ папку ​​​​`workflows`​​​​ (обязательно с маленькой буквы, команда ​​​​`​​​​mkdir workflows​​​​`​​​​ )
 6. Добавить в папку ​​​​workflows​​​​ файл ​​​​cicd.yml [`cicd.yml`](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/.github/workflows) В этом ямл файле и содержится готовая настройка твоего ci/cd: как пульт управления.
 7. Сохранить и запушить изменения:
-а) ​​​​`git add .`​​​​
-б) ​​​​`git commit -m "добавил ямл"​​​​`
-в) `​​​​git push​​`
+- ​​​​`git add .`​​​​
+- ​​​​`git commit -m "добавил ямл"​​​​`
+- `​​​​git push​​`
 
 8. Создать бота в телеграм: @botFather и там команда ​​​​​​​​`/newbot​​​​​​​​`
 - Назвать его, например, ​​​​CI CD​​​​1
