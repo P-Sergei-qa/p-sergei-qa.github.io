@@ -152,7 +152,7 @@ CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это фи�
 3. Добавить в корень проекта папку командой ​​​​`​​mkdir .github​​`. Чтобы её увидеть, можно использовать команду `​​​​​​ls -la​​​​​​`
 4. Перейти в папку  `​​​​.github​​​​ ` (команда ​​ `​​cd .github​​​ `)
 5. ​Добавить внутри папки ​​​​`.github`​​​​ папку ​​​​`workflows`​​​​ (обязательно с маленькой буквы, команда ​​​​`​​​​mkdir workflows​​​​`​​​​ )
-6. Добавить в папку ​​​​`workflows`​​​​ файл ​​ [`cicd.yml`](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/.github/workflows) В этом ямл файле и содержится готовая настройка твоего ci/cd: как пульт управления.
+6. Добавить в папку ​​​​`workflows`​​​​ файл ​​ [`cicd.yml`](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/.github/workflows) В этом ямл файле и содержится готовая настройка твоего ci/cd.
 7. Сохранить и запушить изменения:
 - ​​​​`git add .`​​​​
 - ​​​​`git commit -m "добавил ямл"​​​​`
