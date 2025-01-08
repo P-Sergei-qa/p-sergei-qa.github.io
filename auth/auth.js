@@ -1,6 +1,6 @@
 // Логин и пароль
-const validLogin = 'S';
-const validPassword = 'P';
+const validLogin = 'Login';
+const validPassword = 'Password';
 
 // Показать форму восстановления пароля
 document.getElementById('forgot-password').addEventListener('click', function() {
@@ -29,7 +29,7 @@ document.getElementById('submit-recovery').addEventListener('click', function() 
     const recoveryLogin = document.getElementById('recovery-login').value;
 
     if (recoveryLogin === validLogin) {
-        alert('Восстановление пароля успешно. Пароль: P');
+        alert('Восстановление пароля успешно. Пароль: Password');
         document.getElementById('password-recovery-form').classList.add('hidden');
         document.getElementById('forgot-password').classList.remove('hidden'); // Снова показываем кнопку "Забыли пароль?"
     } else {
