@@ -12,7 +12,7 @@
 	- [Создайте сайт-визитку](#create-digital-business-card-website)
  - [Snowflakes](#Snowflakes)
  - [Создаём свой CI/CD](#CICD)
- - [Добавляем авторизацию](#auth)
+ - [Создаём кнопку "Войти"](#auth)
 
 <a name="about"></a>
 ## Описание
