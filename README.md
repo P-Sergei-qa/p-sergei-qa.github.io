@@ -202,6 +202,9 @@ CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это фи�
 
 
 
+
+
+
 <a name="auth"></a>
 ## Создаём кнопку "Войти"
     
