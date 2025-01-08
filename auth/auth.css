@@ -1,0 +1,73 @@
+/* Стиль для формы */
+.auth-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container input {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Общие стили для кнопок */
+.auth-container .button, #forgot-password {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Легкая граница */
+    border-radius: 25px; /* Закругленные углы */
+    cursor: pointer;
+    font-size: 14px; /* Меньше размер шрифта */
+    background-color: #f0f0f0; /* Светло-серый фон */
+    color: #333; /* Темно-серый текст */
+    transition: background-color 0.3s ease; /* Плавный переход фона */
+}
+
+/* Стиль для кнопки "Войти" */
+.auth-container .button:hover, #forgot-password:hover {
+    background-color: #e0e0e0; /* Светло-серый фон при наведении */
+}
+
+/* Стиль для кнопки Закрыть */
+#close-auth {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #b6b4b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#close-auth:hover {
+    background-color: transparent; /* Убираем фон */
+    color: #ff0000; /* Меняем только цвет текста при наведении */
+    transition: color 0.3s ease; /* Плавный переход для цвета */
+}
+
+
+/* Стили для фона */
+body {
+    background-image: url('../background.jpg'); /* Путь к картинке из папки auth на один уровень вверх */
+    background-size: cover; /* Заполнение фона на весь экран */
+    background-position: center; /* Центрирование фона */
+    background-repeat: no-repeat; /* Не повторять фон */
+    height: 100vh; /* Высота страницы */
+    margin: 0; /* Убираем отступы */
+}
+
+/* Стили для контейнера, чтобы он не сливался с фоном */
+.auth-container {
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для контейнера */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

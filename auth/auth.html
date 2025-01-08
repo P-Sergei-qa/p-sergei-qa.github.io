@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <!-- Подключение стилей фона как на основном сайте -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="auth.css"> <!-- Подключение стилей фона как на основном сайте -->
+
+    <style>
+        /* Стиль для кнопки крестик в правом верхнем углу */
+        #close-auth {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: transparent;
+            border: none;
+            font-size: 30px;
+            color: #ac8b8b;
+            cursor: pointer;
+        }
+        #close-auth:hover {
+            color: #ff0000;
+        }
+
+        /* Скрытое состояние для восстановления пароля */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Кнопка закрытия (крестик) для возврата на основной сайт -->
+    <button id="close-auth">&times;</button>
+
+    <div class="auth-container">
+        <h2>Авторизация</h2>
+        <form id="auth-form">
+            <input type="text" id="login" placeholder="Логин S" required>
+            <input type="password" id="password" placeholder="Пароль P" required>
+            <button type="submit" class="button">Войти</button>
+        </form>
+        
+        <button id="forgot-password">Забыли пароль?</button>
+
+        <!-- Форма восстановления пароля скрыта до нажатия кнопки -->
+        <div id="password-recovery-form" class="hidden">
+            <h3>Восстановление пароля</h3>
+            <input type="text" id="recovery-login" placeholder="Введите логин" required>
+            <button id="submit-recovery">Восстановить</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="auth.js"></script>
+
+    <script>
+        // Обработчик для кнопки крестик, возвращающий на основной сайт
+        document.getElementById('close-auth').addEventListener('click', function() {
+            window.location.href = '../index.html'; // Возврат на основную страницу сайта
+        });
+
+        // Обработчик для кнопки "Забыли пароль?", показывающий форму восстановления пароля
+        document.getElementById('forgot-password').addEventListener('click', function() {
+            // Показываем форму восстановления пароля
+            document.getElementById('password-recovery-form').classList.remove('hidden');
+        });
+    </script>
+
+</body>
+</html>
