@@ -379,3 +379,32 @@ body.dark .vcard h1 small {
         display: none;
     }
 }
+
+
+/* Стили для кнопки авторизации */
+#open-auth-page {
+	margin-left: 13px; /* Сделал отступ кнопки */
+    background-color: #332323; /* Очень светлый серый фон */
+    color: #f1f0f0; /* Темно-серый текст */
+    border: 1px solid #ac8b8b; /*  граница */
+    padding: 6px 12px; /* Меньшие отступы для компактности */
+    font-size: 12px; /* Меньший размер текста */
+    border-radius: 20px; /* Сильно закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    transition: all 0.3s ease; /* Плавные изменения */
+    font-weight: 400; /* Обычный вес шрифта */
+}
+
+/* Стили для кнопки при наведении */
+#open-auth-page:hover {
+    background-color: #e0e0e0; /* Светло-серый фон при наведении */
+    color: #333; /* Более темный текст */
+    border-color: #ccc; /* Светлая граница при наведении */
+}
+
+/* Стили для кнопки при нажатии */
+#open-auth-page:active {
+    background-color: #d0d0d0; /* Еще более светлый серый при нажатии */
+    color: #222; /* Очень темный текст при нажатии */
+}
+

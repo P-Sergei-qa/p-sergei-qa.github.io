@@ -276,6 +276,12 @@ $(function () {
 				$id.removeClass('is-hidden');
 			});	
 		}	
+
+
+
+
+
+
 		
 		// Example
 		
@@ -317,3 +323,5 @@ $(function () {
 		}		
 	});
 });
+
+
