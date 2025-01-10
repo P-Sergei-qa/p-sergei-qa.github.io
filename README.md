@@ -3,7 +3,7 @@
 > Ссылка на [сайт-визитку](https://p-sergei-qa.github.io/).
 
 - [Описание](#about)
-- [Как пользоваться](#how-to-use)
+	- [Как пользоваться](#how-to-use)
 	- [Скачайте шаблон сайта-визитки](#download-business-card-website-template)
 	- [Добавьте контактные данные](#add-contact-details)
 	- [Добавьте аватар](#add-your-avatar)
