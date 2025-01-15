@@ -345,7 +345,7 @@ npx cypress run --spec cypress/e2e/Authorization.cy.js --browser chrome
 viewportWidth: 390,  
 viewportHeight: 844
 ```
-Полный список доступен в документации [Cypress](https://docs.cypress.io/api/commands/and#Syntax)
+Полный список доступен в документации [Cypress](https://docs.cypress.io/api/commands/and#Syntax).
 
 
 
