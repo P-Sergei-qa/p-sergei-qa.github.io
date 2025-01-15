@@ -321,7 +321,7 @@ npx cypress run --spec cypress/e2e/Authorization.cy.js --browser chrome
 
 - Эффект наведения `​​​​cy.get('.menu-item').trigger('mouseover')​​​​`
 
-- Написать что-то в инпут ​​​​`.type('как найти работу тестировщиком')​​​​`
+- Написать что-то в инпут ​​​​`.type('как стать тестировщиком')​​​​`
 
 - Нажать энтер ​​​​`.type('{enter}')​​​​`
 
