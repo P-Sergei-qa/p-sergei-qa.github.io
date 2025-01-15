@@ -264,7 +264,7 @@ CI/CD — Continuous Integration (CI) и Continuous Delivery (CD) - это фи�
 
 ### Загружаем файлы
 
-1. [Скачайте](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP` и распакeqnt архив.
+1. [Скачайте](https://github.com/P-Sergei-qa/p-sergei-qa.github.io) ZIP-архив, нажав кнопку `Code` справа над списком файлов, а затем - `Download ZIP` и распакуйте архив.
 2. Загрузите папку "cypress" с файлами в рабочую зону.
 3. Скачайте и установите Node.js по ссылке: [Node.js Download.](https://nodejs.org/en/download/)
 4. Откройте проект в любой IDE, например, в `Visual Studio Code`.
@@ -306,6 +306,7 @@ npx cypress run
 npx cypress run --spec cypress/e2e/Authorization.cy.js --browser chrome
 ```
 
+Видео с прогоном автотеста находится в папке [videos](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/cypress/cypress/videos ) 
 
 
 ### Полезные действия
