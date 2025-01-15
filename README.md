@@ -340,7 +340,7 @@ npx cypress run --spec cypress/e2e/Authorization.cy.js --browser chrome
 
 - Подождать ещё 5 секунд  ​​​​`cy.wait(5000)​​​​`
 
-Задать мобильные размеры окна в `cypress.config.js:`
+Задать мобильные размеры окна в `cypress.config.js`:
 ```html
 viewportWidth: 390,  
 viewportHeight: 844
