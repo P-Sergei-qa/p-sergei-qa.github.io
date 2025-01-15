@@ -293,7 +293,7 @@ npx cypress open
 ```
 Появится окно `Cypress`, выберите `E2E Testing`, далее браузер `Chrom`, нажмите `Start E2E Testing`
 
-6. В разделе `Specs` выбери `Authorization.cy.js` и запустите автотесты кнопкой `Run All Tests`, либо на клавиатуре нажмите `R`
+В разделе `Specs` выберите `Authorization.cy.js` и запустите автотесты кнопкой `Run All Tests`, либо на клавиатуре нажмите `R`
 
 ### Для запуска автотестов из терминала выполните:
 
