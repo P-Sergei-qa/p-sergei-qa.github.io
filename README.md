@@ -13,7 +13,7 @@
  - [Snowflakes](#Snowflakes)
  - [Создаём свой CI/CD](#CICD)
  - [Создаём кнопку "Войти"](#auth)
- - [Автотесты на UI с помощью JS + Cypres](#Auto)
+ - [Автотесты на UI с помощью JS + Cypress](#Auto)
 
 <a name="about"></a>
 ## Описание
