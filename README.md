@@ -306,7 +306,7 @@ npx cypress run
 npx cypress run --spec cypress/e2e/Authorization.cy.js --browser chrome
 ```
 
-Видео с прогоном автотеста находится в папке [videos](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/cypress/cypress/videos ) 
+Видео с прогоном автотеста находится в папке [videos.](https://github.com/P-Sergei-qa/p-sergei-qa.github.io/tree/main/cypress/cypress/videos ) 
 
 
 ### Полезные действия
